@@ -27,7 +27,7 @@ fn main() {
             Ordering::Less => println!("You guessed {} which is too low.", &guess),
             Ordering::Greater => println!("You guessed {} which is too high.", &guess),
             Ordering::Equal => {
-                println!("You guessed {} which is correct! You win!", &guess);
+                println!("You guessed {} which is correct. You win!", &guess);
                 break;
             }
         }
