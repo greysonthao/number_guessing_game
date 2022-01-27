@@ -3,11 +3,11 @@ use std::cmp::Ordering;
 use std::io;
 
 fn main() {
-    println!("Let's play the number guessing game!");
+    println!("Let's play the Number Guessing Game!");
 
     let secret_number = rand::thread_rng().gen_range(1..101);
 
-    println!("The secret number is {}", secret_number);
+    println!("Your secret number is {}", secret_number);
 
     loop {
         println!("Please input your guess.");
